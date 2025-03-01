@@ -1,0 +1,316 @@
+2025-03-01 22:55:40 [DEBUG][org.jboss.logging][logProvider][152]-> Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2025-03-01 22:55:40 [INFO][org.hibernate.validator.internal.util.Version][<clinit>][21]-> HV000001: Hibernate Validator 6.2.0.Final
+2025-03-01 22:55:40 [INFO][com.easychat.EasyChatApplication][logStarting][55]-> Starting EasyChatApplication using Java 1.8.0_131 on CXJ with PID 15792 (C:\Users\www33\Desktop\easychat\easychat-backend\target\classes started by www33 in C:\Users\www33\Desktop\easychat\easychat-backend)
+2025-03-01 22:55:40 [DEBUG][com.easychat.EasyChatApplication][logStarting][56]-> Running with Spring Boot v2.6.1, Spring v5.3.13
+2025-03-01 22:55:40 [INFO][com.easychat.EasyChatApplication][logStartupProfileInfo][635]-> No active profile set, falling back to default profiles: default
+2025-03-01 22:55:40 [DEBUG][org.springframework.boot.SpringApplication][load][663]-> Loading source class com.easychat.EasyChatApplication
+2025-03-01 22:55:40 [DEBUG][org.hibernate.validator.internal.xml.config.ValidationXmlParser][getValidationXmlInputStream][120]-> Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-03-01 22:55:40 [DEBUG][org.hibernate.validator.internal.xml.config.ResourceLoaderHelper][getResettableInputStreamForPath][60]-> Trying to load META-INF/validation.xml via TCCL
+2025-03-01 22:55:40 [DEBUG][org.hibernate.validator.internal.xml.config.ResourceLoaderHelper][getResettableInputStreamForPath][66]-> Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-03-01 22:55:40 [DEBUG][org.hibernate.validator.internal.xml.config.ValidationXmlParser][getValidationXmlInputStream][127]-> No META-INF/validation.xml found. Using annotation based configuration only.
+2025-03-01 22:55:40 [DEBUG][org.hibernate.validator.internal.engine.resolver.TraversableResolvers][getDefault][60]-> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-03-01 22:55:40 [DEBUG][org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator][buildExpressionFactory][172]-> Loaded expression factory via original TCCL
+2025-03-01 22:55:40 [DEBUG][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][prepareRefresh][629]-> Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@173ed316
+2025-03-01 22:55:40 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-03-01 22:55:40 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2025-03-01 22:55:40 [DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper][determinePropertyNodeNameProvider][345]-> HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-03-01 22:55:40 [DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper][logValidatorFactoryScopedConfiguration][420]-> HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-03-01 22:55:40 [DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper][logValidatorFactoryScopedConfiguration][421]-> HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-03-01 22:55:40 [DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper][logValidatorFactoryScopedConfiguration][422]-> HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-03-01 22:55:40 [DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper][logValidatorFactoryScopedConfiguration][423]-> HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-03-01 22:55:40 [DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper][logValidatorFactoryScopedConfiguration][424]-> HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-03-01 22:55:40 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][multipleStoresDetected][262]-> Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-03-01 22:55:40 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][132]-> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-03-01 22:55:40 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+2025-03-01 22:55:40 [DEBUG][org.springframework.boot.autoconfigure.AutoConfigurationPackages][get][196]-> @EnableAutoConfiguration was declared on a class in the package 'com.easychat'. Automatic @Repository and @Entity scanning is enabled.
+2025-03-01 22:55:40 [DEBUG][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][145]-> Scanning for Redis repositories in packages com.easychat.
+2025-03-01 22:55:40 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][201]-> Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-03-01 22:55:40 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'com.easychat.EasyChatApplication#MapperScannerRegistrar#0'
+2025-03-01 22:55:40 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+2025-03-01 22:55:40 [DEBUG][org.apache.ibatis.logging.LogFactory][setImplementation][112]-> Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-03-01 22:55:40 [WARN][org.mybatis.spring.mapper.ClassPathMapperScanner][warn][44]-> No MyBatis mapper was found in '[com.easychat.mapper]' package. Please check your configuration.
+2025-03-01 22:55:40 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+2025-03-01 22:55:40 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-03-01 22:55:40 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
+2025-03-01 22:55:40 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-03-01 22:55:40 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2025-03-01 22:55:40 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-03-01 22:55:40 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2025-03-01 22:55:40 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2025-03-01 22:55:40 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+2025-03-01 22:55:40 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+2025-03-01 22:55:40 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'methodValidationPostProcessor'
+2025-03-01 22:55:40 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][createArgumentArray][808]-> Autowiring by type from bean name 'methodValidationPostProcessor' via factory method to bean named 'environment'
+2025-03-01 22:55:40 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
+2025-03-01 22:55:41 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2025-03-01 22:55:41 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'persistenceExceptionTranslationPostProcessor'
+2025-03-01 22:55:41 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][createArgumentArray][808]-> Autowiring by type from bean name 'persistenceExceptionTranslationPostProcessor' via factory method to bean named 'environment'
+2025-03-01 22:55:41 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'webServerFactoryCustomizerBeanPostProcessor'
+2025-03-01 22:55:41 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'errorPageRegistrarBeanPostProcessor'
+2025-03-01 22:55:41 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'projectingArgumentResolverBeanPostProcessor'
+2025-03-01 22:55:41 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2025-03-01 22:55:41 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+2025-03-01 22:55:41 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'transactionAttributeSource'
+2025-03-01 22:55:41 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'transactionInterceptor'
+2025-03-01 22:55:41 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][createArgumentArray][808]-> Autowiring by type from bean name 'transactionInterceptor' via factory method to bean named 'transactionAttributeSource'
+2025-03-01 22:55:41 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][createArgumentArray][808]-> Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionAttributeSource'
+2025-03-01 22:55:41 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][createArgumentArray][808]-> Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionInterceptor'
+2025-03-01 22:55:41 [DEBUG][org.springframework.ui.context.support.UiApplicationContextUtils][initThemeSource][85]-> Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@312afbc7]
+2025-03-01 22:55:41 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'tomcatServletWebServerFactory'
+2025-03-01 22:55:41 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat'
+2025-03-01 22:55:41 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'websocketServletWebServerCustomizer'
+2025-03-01 22:55:41 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration'
+2025-03-01 22:55:41 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'servletWebServerFactoryCustomizer'
+2025-03-01 22:55:41 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration'
+2025-03-01 22:55:41 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2025-03-01 22:55:41 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+2025-03-01 22:55:41 [WARN][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][refresh][591]-> Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'servletWebServerFactoryCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.class]: Unsatisfied dependency expressed through method 'servletWebServerFactoryCustomizer' parameter 0; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'server.servlet' to org.springframework.boot.autoconfigure.web.ServerProperties$Servlet
+2025-03-01 22:55:41 [DEBUG][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter][report][37]-> Application failed to start due to an exception
+org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'server.servlet' to org.springframework.boot.autoconfigure.web.ServerProperties$Servlet
+	at org.springframework.boot.context.properties.bind.Binder.handleBindError(Binder.java:384)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:344)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$4(Binder.java:469)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:95)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:83)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:59)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:473)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:587)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:573)
+	at org.springframework.boot.context.properties.bind.Binder$Context.access$300(Binder.java:534)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:471)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:411)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:340)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:329)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:259)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:246)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBinder.bind(ConfigurationPropertiesBinder.java:95)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.bind(ConfigurationPropertiesBindingPostProcessor.java:89)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:78)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:440)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:671)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.getWebServerFactoryCustomizerBeans(WebServerFactoryCustomizerBeanPostProcessor.java:87)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.getCustomizers(WebServerFactoryCustomizerBeanPostProcessor.java:78)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:70)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:58)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:440)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:217)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.easychat.EasyChatApplication.main(EasyChatApplication.java:11)
+Caused by: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.String] to type [org.springframework.boot.autoconfigure.web.ServerProperties$Servlet]
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:118)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:100)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:92)
+	at org.springframework.boot.context.properties.bind.Binder.bindProperty(Binder.java:456)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:400)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:340)
+	... 63 common frames omitted
+2025-03-01 22:55:41 [ERROR][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter][report][40]-> 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'server.servlet' to org.springframework.boot.autoconfigure.web.ServerProperties$Servlet:
+
+    Reason: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.String] to type [org.springframework.boot.autoconfigure.web.ServerProperties$Servlet]
+
+Action:
+
+Update your application's configuration
+
+2025-03-01 22:57:31 [INFO][com.easychat.EasyChatApplication][logStarting][55]-> Starting EasyChatApplication using Java 1.8.0_131 on CXJ with PID 18460 (C:\Users\www33\Desktop\easychat\easychat-backend\target\classes started by www33 in C:\Users\www33\Desktop\easychat\easychat-backend)
+2025-03-01 22:57:31 [DEBUG][org.jboss.logging][logProvider][152]-> Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2025-03-01 22:57:31 [INFO][org.hibernate.validator.internal.util.Version][<clinit>][21]-> HV000001: Hibernate Validator 6.2.0.Final
+2025-03-01 22:57:31 [DEBUG][com.easychat.EasyChatApplication][logStarting][56]-> Running with Spring Boot v2.6.1, Spring v5.3.13
+2025-03-01 22:57:31 [INFO][com.easychat.EasyChatApplication][logStartupProfileInfo][635]-> No active profile set, falling back to default profiles: default
+2025-03-01 22:57:31 [DEBUG][org.springframework.boot.SpringApplication][load][663]-> Loading source class com.easychat.EasyChatApplication
+2025-03-01 22:57:31 [DEBUG][org.hibernate.validator.internal.xml.config.ValidationXmlParser][getValidationXmlInputStream][120]-> Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-03-01 22:57:31 [DEBUG][org.hibernate.validator.internal.xml.config.ResourceLoaderHelper][getResettableInputStreamForPath][60]-> Trying to load META-INF/validation.xml via TCCL
+2025-03-01 22:57:31 [DEBUG][org.hibernate.validator.internal.xml.config.ResourceLoaderHelper][getResettableInputStreamForPath][66]-> Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-03-01 22:57:31 [DEBUG][org.hibernate.validator.internal.xml.config.ValidationXmlParser][getValidationXmlInputStream][127]-> No META-INF/validation.xml found. Using annotation based configuration only.
+2025-03-01 22:57:31 [DEBUG][org.hibernate.validator.internal.engine.resolver.TraversableResolvers][getDefault][60]-> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-03-01 22:57:31 [DEBUG][org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator][buildExpressionFactory][172]-> Loaded expression factory via original TCCL
+2025-03-01 22:57:31 [DEBUG][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][prepareRefresh][629]-> Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@69e153c5
+2025-03-01 22:57:31 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-03-01 22:57:31 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2025-03-01 22:57:31 [DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper][determinePropertyNodeNameProvider][345]-> HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-03-01 22:57:31 [DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper][logValidatorFactoryScopedConfiguration][420]-> HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-03-01 22:57:31 [DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper][logValidatorFactoryScopedConfiguration][421]-> HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-03-01 22:57:31 [DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper][logValidatorFactoryScopedConfiguration][422]-> HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-03-01 22:57:31 [DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper][logValidatorFactoryScopedConfiguration][423]-> HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-03-01 22:57:31 [DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper][logValidatorFactoryScopedConfiguration][424]-> HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-03-01 22:57:31 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][multipleStoresDetected][262]-> Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-03-01 22:57:31 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][132]-> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-03-01 22:57:31 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+2025-03-01 22:57:31 [DEBUG][org.springframework.boot.autoconfigure.AutoConfigurationPackages][get][196]-> @EnableAutoConfiguration was declared on a class in the package 'com.easychat'. Automatic @Repository and @Entity scanning is enabled.
+2025-03-01 22:57:31 [DEBUG][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][145]-> Scanning for Redis repositories in packages com.easychat.
+2025-03-01 22:57:31 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][201]-> Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2025-03-01 22:57:31 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'com.easychat.EasyChatApplication#MapperScannerRegistrar#0'
+2025-03-01 22:57:31 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+2025-03-01 22:57:31 [DEBUG][org.apache.ibatis.logging.LogFactory][setImplementation][112]-> Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-03-01 22:57:31 [WARN][org.mybatis.spring.mapper.ClassPathMapperScanner][warn][44]-> No MyBatis mapper was found in '[com.easychat.mapper]' package. Please check your configuration.
+2025-03-01 22:57:31 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+2025-03-01 22:57:31 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-03-01 22:57:31 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
+2025-03-01 22:57:31 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-03-01 22:57:31 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2025-03-01 22:57:31 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-03-01 22:57:31 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2025-03-01 22:57:31 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2025-03-01 22:57:31 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+2025-03-01 22:57:31 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+2025-03-01 22:57:31 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'methodValidationPostProcessor'
+2025-03-01 22:57:31 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][createArgumentArray][808]-> Autowiring by type from bean name 'methodValidationPostProcessor' via factory method to bean named 'environment'
+2025-03-01 22:57:31 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
+2025-03-01 22:57:31 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2025-03-01 22:57:31 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'persistenceExceptionTranslationPostProcessor'
+2025-03-01 22:57:31 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][createArgumentArray][808]-> Autowiring by type from bean name 'persistenceExceptionTranslationPostProcessor' via factory method to bean named 'environment'
+2025-03-01 22:57:31 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'webServerFactoryCustomizerBeanPostProcessor'
+2025-03-01 22:57:31 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'errorPageRegistrarBeanPostProcessor'
+2025-03-01 22:57:31 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'projectingArgumentResolverBeanPostProcessor'
+2025-03-01 22:57:32 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2025-03-01 22:57:32 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+2025-03-01 22:57:32 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'transactionAttributeSource'
+2025-03-01 22:57:32 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'transactionInterceptor'
+2025-03-01 22:57:32 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][createArgumentArray][808]-> Autowiring by type from bean name 'transactionInterceptor' via factory method to bean named 'transactionAttributeSource'
+2025-03-01 22:57:32 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][createArgumentArray][808]-> Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionAttributeSource'
+2025-03-01 22:57:32 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][createArgumentArray][808]-> Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionInterceptor'
+2025-03-01 22:57:32 [DEBUG][org.springframework.ui.context.support.UiApplicationContextUtils][initThemeSource][85]-> Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@599f571f]
+2025-03-01 22:57:32 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'tomcatServletWebServerFactory'
+2025-03-01 22:57:32 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat'
+2025-03-01 22:57:32 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'websocketServletWebServerCustomizer'
+2025-03-01 22:57:32 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration'
+2025-03-01 22:57:32 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'servletWebServerFactoryCustomizer'
+2025-03-01 22:57:32 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration'
+2025-03-01 22:57:32 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2025-03-01 22:57:32 [DEBUG][org.springframework.beans.factory.support.DefaultListableBeanFactory][getSingleton][225]-> Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+2025-03-01 22:57:32 [WARN][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][refresh][591]-> Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'servletWebServerFactoryCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.class]: Unsatisfied dependency expressed through method 'servletWebServerFactoryCustomizer' parameter 0; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'server.servlet' to org.springframework.boot.autoconfigure.web.ServerProperties$Servlet
+2025-03-01 22:57:32 [DEBUG][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter][report][37]-> Application failed to start due to an exception
+org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'server.servlet' to org.springframework.boot.autoconfigure.web.ServerProperties$Servlet
+	at org.springframework.boot.context.properties.bind.Binder.handleBindError(Binder.java:384)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:344)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$4(Binder.java:469)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:95)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:83)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:59)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:473)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:587)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:573)
+	at org.springframework.boot.context.properties.bind.Binder$Context.access$300(Binder.java:534)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:471)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:411)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:340)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:329)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:259)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:246)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBinder.bind(ConfigurationPropertiesBinder.java:95)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.bind(ConfigurationPropertiesBindingPostProcessor.java:89)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:78)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:440)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:671)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.getWebServerFactoryCustomizerBeans(WebServerFactoryCustomizerBeanPostProcessor.java:87)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.getCustomizers(WebServerFactoryCustomizerBeanPostProcessor.java:78)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:70)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:58)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:440)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:217)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.easychat.EasyChatApplication.main(EasyChatApplication.java:11)
+Caused by: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.String] to type [org.springframework.boot.autoconfigure.web.ServerProperties$Servlet]
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:118)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:100)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:92)
+	at org.springframework.boot.context.properties.bind.Binder.bindProperty(Binder.java:456)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:400)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:340)
+	... 63 common frames omitted
+2025-03-01 22:57:32 [ERROR][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter][report][40]-> 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'server.servlet' to org.springframework.boot.autoconfigure.web.ServerProperties$Servlet:
+
+    Reason: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.String] to type [org.springframework.boot.autoconfigure.web.ServerProperties$Servlet]
+
+Action:
+
+Update your application's configuration
+

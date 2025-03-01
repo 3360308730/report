@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    username: root
+    password: "root"
+    url: jdbc:mysql://localhost:3306/easycaht?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+server:
+  port: 8710
+  servlet:
+    context-path: /api
+project:
+  folder: e:/webser/easychat
+
+log:
+  root:
+    level: info
