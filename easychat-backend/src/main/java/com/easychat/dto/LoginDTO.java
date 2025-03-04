@@ -13,8 +13,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class LoginDTO {
 
-    @NotBlank(message = "用户名不能为空")
-    private int username;
+    @NotBlank(message = "邮箱不能为空")
+    private String email;
 
     @NotEmpty(message = "密码不能为空")
     private String password;
